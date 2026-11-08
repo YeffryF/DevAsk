@@ -1,0 +1,51 @@
+.question-container {
+    max-width: 700px;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    margin-top: 5rem;
+}
+
+.question-title {
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.question-body {
+    margin-bottom: 24px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.question-card-actions {
+    margin-top: 12px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.question-card-actions button {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #e5e7eb;
+    color: #111827;
+}
+
+.question-card-actions button:hover {
+    background-color: #d1d5db;
+}
+
+.question-card-delete {
+    background-color: #ef4444 !important;
+    color: white !important;
+}
+
+.question-card-delete:hover {
+    background-color: #dc2626 !important;
+}
+
+.question-card-votes {
+    font-weight: 600;
+    color: #374151;
+}
